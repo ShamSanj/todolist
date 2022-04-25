@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-box {
+    width: 500px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.todo-wrapper {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-btns {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item.line-through{
+    text-decoration: line-through;
+}
+
+.btn_delete{
+    border: red 1px solid;
+    background-color: red;
+}
